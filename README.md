@@ -1,8 +1,8 @@
 # ml-llm-projects
 
-个人机器学习 / 深度学习 / 大模型 项目合集。用于作品展示与持续迭代。
+个人机器学习 / 深度学习 / 大模型 项目合集。
 
-## 📦 项目总览
+## 项目总览
 
 | 项目 | 领域 | 技术栈 | 说明 |
 | --- | --- | --- | --- |
@@ -12,7 +12,7 @@
 | [rnn_lyrics_generator](./rnn_lyrics_generator) | 深度学习 / 序列生成 | PyTorch, jieba | 基于 RNN 的歌词生成:文本预处理 + 序列训练 + 生成 |
 | [rag](./rag) | 大模型 / RAG | LangChain, Ollama, OpenAI 兼容接口, Redis | 检索增强生成(RAG)模块:本地向量化 + LLM 调用 + Milvus/Redis 集成 |
 
-## 🗂️ 目录结构
+## 目录结构
 
 ```
 ml-llm-projects/
@@ -25,7 +25,7 @@ ml-llm-projects/
 └── rag/                          # RAG 模块(LangChain + Ollama + Milvus/Redis)
 ```
 
-## 🚀 使用
+## 使用
 
 每个项目目录内均有独立的 `README.md` 与 `requirements.txt`,请按需进入对应目录查看:
 
@@ -35,8 +35,3 @@ pip install -r requirements.txt
 python <入口脚本>.py
 ```
 
-## ⚠️ 说明
-
-- **数据与模型文件不入库**:较大的数据集、训练得到的模型二进制(如 `*.csv`、`*.pkl`、`*.pth`)已通过 `.gitignore` 排除,请按各项目 README 准备数据。
-- **无任何真实凭据**:所有密钥(如 API Key、Redis 密码)均通过环境变量或占位符注入,仓库内不含真实凭证。
-- 脚本使用自身位置(`__file__`)定位数据与模型,移动到任意目录后仍可正常运行。
