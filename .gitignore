@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 数据与模型产物(体积较大)
+*.csv
+*.xlsx
+*.pkl
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.h5
+*.npy
+*.npz
+data/
+**/fig/
+*_plot.png
+
+# 日志 / IDE / 缓存
+*.log
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.local/
