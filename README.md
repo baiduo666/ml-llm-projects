@@ -35,3 +35,6 @@ pip install -r requirements.txt
 python <入口脚本>.py
 ```
 
+> **开箱即用程度**:`power_load_forecasting`、`tabular_xgboost_regression`、`rnn_lyrics_generator` 三个项目已附带数据集与训练好的模型,clone 后可直接运行;`credit_card_fraud` 数据集体积较大(约 55 MB),需自行准备 `data/creditcard.csv`;`rag` 需要本地 Ollama 与 Redis / Milvus 服务。
+>
+> 各项目均已提供结果可视化(`assets/` 或 `samples/`),可直接在对应 README 中查看。
