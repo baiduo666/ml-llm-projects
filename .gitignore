@@ -4,25 +4,20 @@ __pycache__/
 .venv/
 venv/
 
-# 数据与模型产物(体积较大)
-*.csv
-*.xlsx
-*.pkl
-*.bin
-*.pth
-*.pt
-*.ckpt
-*.joblib
-*.h5
-*.npy
-*.npz
-data/
-**/fig/
-*_plot.png
-
 # 日志 / IDE / 缓存
 *.log
 .ipynb_checkpoints/
 .idea/
 .vscode/
 .local/
+
+# 大型模型权重 / 训练中间产物
+# 说明: 轻量数据集与训练好的模型已随仓库提供, 便于 clone 后直接运行
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.npy
+*.npz
+*.xlsx
